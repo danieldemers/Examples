@@ -49,7 +49,7 @@ print('reading files')
 file = open('test.txt')
 print(file.read())
 
-#this will fail as the file is read and python is at the end of the sentence, use seek to reset to 0 point
+# this will fail as the file is read and python is at the end of the sentence, use seek to reset to 0 point
 print(file.read())
 
 file.seek(0)
@@ -58,12 +58,38 @@ print(file.read())
 
 
 
+print('\n\n\nSets and Booleans\n\n')
+
+# sets are unordered collection of elements
+# this makes x a set function then you modify the x variable
+x = set()
+print(x)
+
+x.add(1)
+
+print(x)
+
+x.add(1)
+x.add(3)
+x.add(6)
+x.add(6)
+x.add(6)
+x.add(6)
+print(x)
+y = len(x)
+print(y)
 
 
+# booleans
+
+print("\n\n\nBooleans\n\n")
+
+x = True
+print(x)
 
 
-
-
+xx = 11 > 2
+print(xx)
 
 
 
